@@ -2,9 +2,9 @@ package moneycalculator.model;
 
 public class Money {
     private final Currency currency;
-    private final int amount;
+    private final double amount;
 
-    public Money(Currency currency, int amount) {
+    public Money(Currency currency, double amount) {
         this.currency = currency;
         this.amount = amount;
     }
@@ -13,7 +13,7 @@ public class Money {
         return currency;
     }
 
-    public int getAmount() {
+    public double getAmount() {
         return amount;
     }
     

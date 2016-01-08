@@ -23,4 +23,9 @@ public class Currency {
         return code;
     }
     
+    @Override
+    public String toString(){
+        String result = code + " - " + name + " - " +symbol;
+        return result;
+    }
 }
